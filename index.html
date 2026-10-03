@@ -1,15 +1,911 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi página web</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>Mi primera página en GitHub</h1>
-    <p>Esta página ha sido publicada utilizando GitHub Pages.</p>
-    <button onclick="mensaje()">Presiona aquí</button>
-    <script src="script.js"></script>
-</body>
-</html>
+
+<html lang="es"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>NutriPaws VitalPet | Nutrición Premium para Mascotas</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-primary":"#ffffff","surface-container-lowest":"#ffffff","on-tertiary-fixed-variant":"#005235","tertiary-fixed-dim":"#75daa8","on-secondary-fixed":"#3c0800","on-tertiary-container":"#53b889","error-container":"#ffdad6","on-secondary-container":"#742814","surface-bright":"#f9f9ff","error":"#ba1a1a","secondary-container":"#fc9174","on-secondary-fixed-variant":"#7c2e19","tertiary":"#002d1b","primary-container":"#1b4332","secondary-fixed-dim":"#ffb4a1","secondary":"#9a442d","surface-tint":"#3f6653","surface-container":"#e9edff","primary-fixed":"#c1ecd4","secondary-fixed":"#ffdbd2","surface-variant":"#dce2f7","inverse-on-surface":"#edf0ff","outline":"#717973","inverse-primary":"#a5d0b9","on-secondary":"#ffffff","tertiary-container":"#00452c","inverse-surface":"#293040","on-tertiary-fixed":"#002113","background":"#f9f9ff","on-primary-fixed-variant":"#274e3d","on-tertiary":"#ffffff","surface-container-high":"#e1e8fd","surface-dim":"#d3daef","on-error-container":"#93000a","on-background":"#141b2b","tertiary-fixed":"#92f7c3","primary-fixed-dim":"#a5d0b9","surface-container-highest":"#dce2f7","primary":"#012d1d","outline-variant":"#c1c8c2","on-primary-container":"#86af99","on-surface":"#141b2b","on-error":"#ffffff","on-surface-variant":"#414844","surface":"#f9f9ff","surface-container-low":"#f1f3ff","on-primary-fixed":"#002114"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin-md":"3rem","margin":"1.5rem","gutter-lg":"2rem","space-2xl":"4rem","space-xl":"2.5rem","space-md":"1rem","space-sm":"0.5rem","gutter":"1.5rem","space-xs":"0.25rem","margin-lg":"5rem","gutter-sm":"1rem","space-lg":"1.5rem"},fontFamily:{"headline-xl-mobile":["Plus Jakarta Sans"],"label-md":["Plus Jakarta Sans"],"display-lg-mobile":["Plus Jakarta Sans"],"headline-lg":["Plus Jakarta Sans"],"body-lg":["Inter"],"headline-sm":["Plus Jakarta Sans"],"headline-xl":["Plus Jakarta Sans"],"display-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"headline-md":["Plus Jakarta Sans"],"body-sm":["Inter"],"label-lg":["Plus Jakarta Sans"],"body-md":["Inter"]},fontSize:{"headline-xl-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.02em","fontWeight":"600"}],"display-lg-mobile":["36px",{"lineHeight":"44px","letterSpacing":"-0.025em","fontWeight":"800"}],"headline-lg":["30px",{"lineHeight":"38px","letterSpacing":"-0.015em","fontWeight":"700"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-sm":["18px",{"lineHeight":"26px","fontWeight":"600"}],"headline-xl":["40px",{"lineHeight":"48px","letterSpacing":"-0.02em","fontWeight":"700"}],"display-lg":["52px",{"lineHeight":"60px","letterSpacing":"-0.03em","fontWeight":"800"}],"label-sm":["11px",{"lineHeight":"16px","letterSpacing":"0.04em","fontWeight":"700"}],"headline-md":["22px",{"lineHeight":"30px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"20px","fontWeight":"400"}],"label-lg":["15px",{"lineHeight":"20px","letterSpacing":"0.01em","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","fontWeight":"400"}]}}}}</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="bg-primary text-on-primary py-2 px-margin hidden md:block"><div class="max-w-[1360px] mx-auto flex items-center justify-between font-label-sm text-label-sm"><div class="flex items-center gap-space-md"><span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">local_shipping</span> Envíos gratis por compras sobre S/ 99</span><span class="opacity-40">•</span><span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">bolt</span> Despacho express en 24h</span><span class="opacity-40">•</span><span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">support_agent</span> Asesoría veterinaria gratuita</span></div><div class="flex items-center gap-space-md"><button class="flex items-center gap-1 hover:text-primary-fixed transition-colors"><span class="material-symbols-outlined text-[15px]">location_on</span><span>Lima / Miraflores</span><span class="material-symbols-outlined text-[14px]">expand_more</span></button></div></div></div><div class="max-w-[1360px] mx-auto px-margin"><div class="h-20 flex items-center justify-between gap-space-lg"><div class="flex items-center gap-space-md flex-shrink-0"><img alt="NutriPaws Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Xk959oP79kZ_YP3i4yJKxCuXMffQqsdhwupHZYeDCQy6lko7XPY4owpyXJp8QZOKxeUv40EMdC3rRx21bFJRqrBdHRtvc_h-r3PU-_wqGP9XxrDLF5Lx00q-SLHYSxr9WLL0FpRzIvmeomLYSe12cE_6lSFZFjyoBsCqy_NJEhsgLKVEEs0Ouq7HFLjW7pOEZLiR9U13Wa6Mn4dwp3SNshL20HBe7wAwMeOuEN_6N2Fo1A9m22IZELEjxN"/><a class="font-headline-md text-headline-md text-primary tracking-tight" data-path="inicio" href="#">NutriPaws <span class="text-secondary font-headline-sm text-headline-sm">VitalPet</span></a></div><div class="flex-1 max-w-xl hidden lg:block"><div class="relative flex items-center"><div class="absolute left-4 text-outline flex items-center pointer-events-none"><span class="material-symbols-outlined text-[20px]">search</span></div><input class="w-full pl-12 pr-28 py-3 bg-surface-container-low rounded-full font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container transition-all" placeholder="Busca marcas como Royal Canin, Hill's, o alimentos para cachorros..." type="text"/><div class="absolute right-2 flex items-center"><button class="px-3 py-1.5 bg-surface-container rounded-full font-label-sm text-label-sm text-on-surface-variant flex items-center gap-1 hover:bg-surface-container-high transition-colors"><span class="material-symbols-outlined text-[14px]">tune</span> Filtrar</button></div></div></div><div class="flex items-center gap-space-md flex-shrink-0"><button class="hidden sm:flex items-center gap-2 px-3 py-2 rounded-xl bg-surface-container-low hover:bg-surface-container hover:text-on-surface text-on-surface-variant transition-colors"><span class="material-symbols-outlined text-primary text-[20px]">pets</span><div class="text-left"><span class="block font-label-sm text-label-sm leading-none">Mi Mascota</span><span class="block font-label-md text-label-md text-primary leading-tight">Max &amp; Luna</span></div><span class="material-symbols-outlined text-[16px]">expand_more</span></button><div class="hidden xl:flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed"><span class="material-symbols-outlined text-[16px] text-secondary">award_star</span><span class="font-label-md text-label-md">350 pts Club</span></div><a class="hidden md:flex items-center gap-2 text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" data-path="mi-cuenta" href="#"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div><span class="hidden lg:inline">Mi Cuenta</span></a><a class="flex items-center gap-2 px-3 py-2 rounded-xl bg-primary text-on-primary hover:bg-primary-container transition-all shadow-sm" data-path="carrito" href="#"><div class="relative flex items-center"><span class="material-symbols-outlined text-[20px]">shopping_bag</span><span class="absolute -top-1.5 -right-2 bg-secondary text-on-secondary font-label-sm text-[10px] w-4 h-4 rounded-full flex items-center justify-center leading-none font-bold">3</span></div><div class="hidden sm:block text-left"><span class="block font-label-sm text-[10px] leading-tight text-primary-fixed">Total</span><span class="block font-label-md text-label-md font-bold leading-none">S/ 249.50</span></div></a></div></div><div class="hidden md:flex items-center justify-between pb-3 pt-1"><nav class="flex items-center gap-space-lg" data-active-classes="text-primary font-headline-sm border-b-2 border-primary"><a aria-current="page" class="transition-colors py-1 text-primary font-headline-sm border-b-2 border-primary" data-path="inicio" href="#">Inicio</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="perros" href="#">Perros</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="gatos" href="#">Gatos</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="productos" href="#">Productos</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="promociones" href="#">Promociones</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-1 flex items-center gap-2" data-path="encuentra-tu-alimento" href="#"><span>Encuentra tu alimento</span><span class="px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-[10px] font-bold uppercase tracking-wider">Recomendador AI</span></a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="puntos-de-venta" href="#">Puntos de venta</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="consejos" href="#">Consejos</a></nav><div class="flex items-center gap-2 text-secondary"><span class="material-symbols-outlined text-[18px]">verified</span><span class="font-label-md text-label-md">Nutrición Holística Certificada</span></div></div></div></header><main class="w-full pt-36 bg-surface"><div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="relative w-full overflow-hidden bg-surface-container-low pt-6 pb-16 lg:pb-24">
+<div class="max-w-[1360px] mx-auto px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-center">
+<!-- Hero Text & Value Prop -->
+<div class="lg:col-span-6 z-10 flex flex-col items-start space-y-space-md">
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md">
+<span class="material-symbols-outlined text-[18px] text-secondary">verified</span>
+<span>Nutrición Holística Biológicamente Adaptada</span>
+</div>
+<h1 class="font-display-lg text-display-lg text-primary tracking-tight text-balance leading-none">
+            El alimento ideal para una vida más <span class="text-secondary italic">saludable y feliz</span>
+</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+            Encuentra nutrición holística y de calidad según la edad, tamaño, raza y requerimientos específicos de tu compañero de vida.
+          </p>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-space-md pt-2">
+<a class="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-primary text-on-primary font-label-lg text-label-lg hover:bg-primary-container shadow-md hover:shadow-lg transition-all duration-200" href="#recomendador-ia">
+<span class="material-symbols-outlined text-[20px]">auto_awesome</span>
+<span>Encontrar alimento ideal</span>
+</a>
+<a class="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-surface-container-lowest text-primary font-label-lg text-label-lg shadow-sm hover:shadow-md transition-all duration-200" href="#promociones">
+<span class="material-symbols-outlined text-[20px] text-secondary">local_fire_department</span>
+<span>Ver promociones y packs</span>
+</a>
+</div>
+<!-- Trust Badges Under Hero -->
+<div class="grid grid-cols-3 gap-3 w-full pt-4">
+<div class="p-3 rounded-2xl bg-surface-container-lowest shadow-sm flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-primary-fixed flex items-center justify-center flex-shrink-0 text-primary">
+<span class="material-symbols-outlined text-[20px]">local_shipping</span>
+</div>
+<div class="min-w-0">
+<p class="font-label-md text-label-md text-primary font-bold truncate">Envío Gratis</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant truncate">Hoy sobre S/ 99</p>
+</div>
+</div>
+<div class="p-3 rounded-2xl bg-surface-container-lowest shadow-sm flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-tertiary-fixed flex items-center justify-center flex-shrink-0 text-on-tertiary-fixed">
+<span class="material-symbols-outlined text-[20px]">eco</span>
+</div>
+<div class="min-w-0">
+<p class="font-label-md text-label-md text-primary font-bold truncate">100% Natural</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant truncate">Grado Grano Cero</p>
+</div>
+</div>
+<div class="p-3 rounded-2xl bg-surface-container-lowest shadow-sm flex items-center gap-3">
+<div class="w-10 h-10 rounded-xl bg-secondary-fixed flex items-center justify-center flex-shrink-0 text-secondary">
+<span class="material-symbols-outlined text-[20px]">pets</span>
+</div>
+<div class="min-w-0">
+<p class="font-label-md text-label-md text-primary font-bold truncate">+45,000</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant truncate">Mascotas felices</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Hero Image Presentation -->
+<div class="lg:col-span-6 relative flex justify-center items-center">
+<div class="relative w-full rounded-3xl overflow-hidden shadow-2xl bg-surface-container-lowest aspect-[16/11]">
+<img alt="Golden Retriever y Gato disfrutando de una mesa con ingredientes frescos como salmón, arándanos y vegetales" class="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCVfdMT3QQIGj1UlWaVgbpaLTvO2EtsEKhapdsNybIeHmI8DdECU-d96xYcRlNGbR-PejXPbe0swpRK_xn6R2dmv2IXcxo0fBkv1FzfNIlsX9dVx6lGLhUdOT0E_ndnSYpb6ChGgG3MXhKqEpzUF_U_Uab_T7dcOfRBXEK-6nFMrbLkEvGWPNiewkmV5MPwKBqvqUO5jhhaTjs49ulJtEVuDIkfohBfS3bKCWgWhANcdUBECe0j4i5Xgg"/>
+<!-- Floating Clinical Guarantee Tag -->
+<div class="absolute bottom-4 left-4 bg-surface-container-lowest/95 backdrop-blur-md px-4 py-3 rounded-2xl shadow-lg flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[18px]">verified_user</span>
+</div>
+<div>
+<p class="font-label-md text-label-md text-primary leading-tight">Aval Médico Nutricional</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Colegio Médico Veterinario del Perú</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- MÓDULO ESTRELLA: BUSCADOR INTELIGENTE DE ALIMENTO -->
+<section class="w-full py-space-2xl bg-surface" id="recomendador-ia">
+<div class="max-w-[1360px] mx-auto px-margin">
+<!-- Section Heading -->
+<div class="max-w-2xl mx-auto text-center mb-space-xl">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm uppercase tracking-wider mb-2">
+<span class="material-symbols-outlined text-[14px]">psychology</span>
+          Recomendador Clínico NutriPaws
+        </div>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight">
+          Encuentra el alimento ideal para tu mascota
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          Test nutricional personalizado en 3 simples pasos. Diseñado por especialistas veterinarios.
+        </p>
+</div>
+<!-- Main Layout: Form (Steps) & Live Preview (Result) -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-start">
+<!-- Interactive Stepper Form -->
+<div class="lg:col-span-7 bg-surface-container-lowest rounded-3xl p-6 md:p-8 shadow-sm space-y-space-lg">
+<!-- Step 1: Pet Choice -->
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="font-label-md text-label-md text-secondary font-bold uppercase tracking-wider">Paso 1 de 3</span>
+<span class="font-label-sm text-label-sm text-outline">Especie</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-3">¿Para quién es la nutrición?</h3>
+<div class="grid grid-cols-2 gap-4" id="speciesSelector">
+<button class="species-btn flex items-center justify-center gap-3 p-4 rounded-2xl bg-primary text-on-primary shadow-sm transition-all duration-200" data-species="perro" type="button">
+<span class="material-symbols-outlined text-[26px]">pets</span>
+<div class="text-left">
+<div class="font-headline-sm text-headline-sm leading-tight">Perro</div>
+<div class="font-label-sm text-label-sm opacity-80">Canino</div>
+</div>
+</button>
+<button class="species-btn flex items-center justify-center gap-3 p-4 rounded-2xl bg-surface-container-low text-on-surface hover:bg-surface-container transition-all duration-200" data-species="gato" type="button">
+<span class="material-symbols-outlined text-[26px]">cruelty_free</span>
+<div class="text-left">
+<div class="font-headline-sm text-headline-sm leading-tight">Gato</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant">Felino</div>
+</div>
+</button>
+</div>
+</div>
+<!-- Step 2: Biological & Physical Specifics -->
+<div class="space-y-space-md pt-2">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-secondary font-bold uppercase tracking-wider">Paso 2 de 3</span>
+<span class="font-label-sm text-label-sm text-outline">Perfil Biológico</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<!-- Breed Select -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Raza o cruce</label>
+<div class="relative">
+<select class="w-full appearance-none px-4 py-3.5 bg-surface-container-low rounded-xl font-body-sm text-body-sm text-on-surface focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container pr-10" id="petBreed">
+<option value="golden">Golden Retriever / Labrador</option>
+<option value="bulldog">Bulldog Francés / Inglés</option>
+<option value="mestizo">Mestizo / Criollo</option>
+<option value="poodle">Poodle / Schnauzer</option>
+<option value="pastor">Pastor Alemán / Border Collie</option>
+<option value="persa">Gato Persa / Siamés</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-3.5 text-outline pointer-events-none text-[20px]">expand_more</span>
+</div>
+</div>
+<!-- Life Stage -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Etapa de vida</label>
+<div class="relative">
+<select class="w-full appearance-none px-4 py-3.5 bg-surface-container-low rounded-xl font-body-sm text-body-sm text-on-surface focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-primary-container pr-10" id="petAge">
+<option value="adult">Adulto (1 a 7 años)</option>
+<option value="puppy">Cachorro / Gatito (&lt; 1 año)</option>
+<option value="senior">Senior (7+ años)</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-3.5 text-outline pointer-events-none text-[20px]">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Weight / Size Options -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-2">Tamaño / Rango de peso</label>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-2" id="sizeSelector">
+<button class="size-btn p-2.5 rounded-xl bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm text-center hover:bg-surface-container transition-all" type="button">
+                  Mini / Toy<br/><span class="opacity-70">&lt; 5 kg</span>
+</button>
+<button class="size-btn p-2.5 rounded-xl bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm text-center hover:bg-surface-container transition-all" type="button">
+                  Pequeño<br/><span class="opacity-70">5 - 10 kg</span>
+</button>
+<button class="size-btn p-2.5 rounded-xl bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm text-center hover:bg-surface-container transition-all" type="button">
+                  Mediano<br/><span class="opacity-70">10 - 25 kg</span>
+</button>
+<button class="size-btn p-2.5 rounded-xl bg-primary text-on-primary font-label-sm text-label-sm text-center shadow-sm" type="button">
+                  Grande<br/><span class="opacity-70">&gt; 25 kg</span>
+</button>
+</div>
+</div>
+<!-- Activity Level -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-2">Nivel de actividad física</label>
+<div class="grid grid-cols-3 gap-2" id="activitySelector">
+<button class="activity-btn p-3 rounded-xl bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm text-center hover:bg-surface-container" type="button">
+                  Bajo / Sedentario
+                </button>
+<button class="activity-btn p-3 rounded-xl bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm text-center hover:bg-surface-container" type="button">
+                  Moderado (1h/día)
+                </button>
+<button class="activity-btn p-3 rounded-xl bg-primary text-on-primary font-label-sm text-label-sm text-center shadow-sm" type="button">
+                  Alto / Deportista
+                </button>
+</div>
+</div>
+</div>
+<!-- Step 3: Special Needs & Budget -->
+<div class="space-y-space-md pt-2">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-secondary font-bold uppercase tracking-wider">Paso 3 de 3</span>
+<span class="font-label-sm text-label-sm text-outline">Requerimientos Clínicos</span>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-2">Condiciones especiales (Selecciona las que apliquen)</label>
+<div class="flex flex-wrap gap-2" id="specialNeedsChips">
+<button class="need-chip px-3.5 py-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md shadow-sm" type="button">
+                  ✓ Digestión Sensible
+                </button>
+<button class="need-chip px-3.5 py-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md shadow-sm" type="button">
+                  ✓ Cuidado Articular
+                </button>
+<button class="need-chip px-3.5 py-1.5 rounded-full bg-surface-container-low text-on-surface-variant hover:bg-surface-container font-label-md text-label-md" type="button">
+                  + Control de Peso
+                </button>
+<button class="need-chip px-3.5 py-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md shadow-sm" type="button">
+                  ✓ Piel y Pelaje Brillante
+                </button>
+<button class="need-chip px-3.5 py-1.5 rounded-full bg-surface-container-low text-on-surface-variant hover:bg-surface-container font-label-md text-label-md" type="button">
+                  + Esterilizado / Castrado
+                </button>
+<button class="need-chip px-3.5 py-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-md text-label-md shadow-sm" type="button">
+                  ✓ Grain-Free (Sin Granos)
+                </button>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface mb-1">Gama nutricional preferida</label>
+<div class="grid grid-cols-3 gap-2">
+<div class="p-3 rounded-xl bg-surface-container-low text-center">
+<p class="font-label-md text-label-md text-on-surface">Equilibrada</p>
+<p class="font-label-sm text-label-sm text-outline">Desde S/ 95</p>
+</div>
+<div class="p-3 rounded-xl bg-surface-container-low text-center">
+<p class="font-label-md text-label-md text-on-surface">Premium</p>
+<p class="font-label-sm text-label-sm text-outline">Desde S/ 135</p>
+</div>
+<div class="p-3 rounded-xl bg-primary-fixed text-center shadow-sm">
+<p class="font-label-md text-label-md text-on-primary-fixed-variant font-bold">Holística Súper Premium</p>
+<p class="font-label-sm text-label-sm text-on-primary-fixed-variant">100% Proteína Real</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Calculate Button -->
+<div class="pt-2">
+<button class="w-full py-4 rounded-2xl bg-secondary text-on-secondary font-label-lg text-label-lg font-bold flex items-center justify-center gap-2 hover:bg-secondary-container hover:text-on-secondary-container shadow-md transition-all" id="btnCalculate" type="button">
+<span class="material-symbols-outlined text-[20px]">insights</span>
+<span>Calcular recomendación personalizada</span>
+</button>
+</div>
+</div>
+<!-- Live Results Card (Producto Destacado) -->
+<div class="lg:col-span-5 bg-surface-container-lowest rounded-3xl p-6 md:p-8 shadow-md relative overflow-hidden">
+<!-- Live Match Score Ribbon -->
+<div class="flex items-center justify-between mb-4">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-md text-label-md font-bold">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+              98% Compatible con tu mascota
+            </span>
+<span class="font-label-sm text-label-sm text-secondary font-bold">RECOMENDACIÓN N° 1</span>
+</div>
+<!-- Packaging Image -->
+<div class="relative bg-surface-container-low rounded-2xl p-4 mb-4 flex items-center justify-center overflow-hidden aspect-square">
+<img alt="Empaque de alimento NutriPaws Active Adult Salmon and Sweet Potato Recipe en una base de madera con ingredientes frescos" class="max-h-full object-contain hover:scale-105 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCIwLYQa52jmV4wwnvOQWAOuWvN_QfW5ulnr8nAPy7UB5O6UUbKi2qfSptewcrsPbSX-aYqXZwqbYEKSTOvuS6YXRNemMr5wVYtGlcLvpshz-0644jc19Uz4OoHVZmHTJs3hdB_i1jftovRDLxoiygrP1J0_8E3irBJgae34vYgYC1D9C4O1ziuIdo2z8XtpFXuTpxVZOVI07Wx0_7oCafp9w2hyZwLEcUpFSrmeHvF6ThTqU7KXxLHqg"/>
+<span class="absolute top-3 right-3 px-2.5 py-1 rounded-full bg-secondary text-on-secondary font-label-sm text-[11px] font-bold">
+              -13% OFF
+            </span>
+</div>
+<!-- Title and Specs -->
+<div class="space-y-2 mb-4">
+<div class="flex items-center gap-2 text-outline font-label-sm text-label-sm">
+<span>NutriPaws BioFormula™</span>
+<span>•</span>
+<span class="text-primary font-bold">Bolsa 12 kg</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-bold leading-snug">
+              NutriPaws Active Adult Salmon &amp; Sweet Potato Recipe
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Fórmula libre de cereales con salmón del Pacífico norte, batata dulce y complejo condroprotector (Glucosamina + MSM). Ideal para perros adultos de alto rendimiento y digestión sensible.
+            </p>
+</div>
+<!-- Highlight Nutrients Badges -->
+<div class="flex flex-wrap gap-2 mb-6">
+<span class="px-2.5 py-1 rounded-lg bg-surface-container font-label-sm text-label-sm text-primary">32% Proteína Bruta</span>
+<span class="px-2.5 py-1 rounded-lg bg-surface-container font-label-sm text-label-sm text-primary">Omega 3 &amp; 6 Activo</span>
+<span class="px-2.5 py-1 rounded-lg bg-surface-container font-label-sm text-label-sm text-primary">Cero Trigo / Maíz</span>
+</div>
+<!-- Price & CTA -->
+<div class="pt-4 flex items-center justify-between">
+<div>
+<span class="line-through font-label-sm text-label-sm text-outline block">S/ 195.00</span>
+<span class="font-headline-lg text-headline-lg text-primary font-bold leading-none">S/ 169.00</span>
+</div>
+<div class="flex items-center gap-2">
+<button class="w-12 h-12 rounded-xl bg-surface-container-low flex items-center justify-center text-primary hover:bg-surface-container transition-colors" title="Guardar en favoritos">
+<span class="material-symbols-outlined text-[20px]">favorite_border</span>
+</button>
+<button class="px-5 py-3.5 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-bold flex items-center gap-1.5 hover:bg-primary-container shadow-md transition-all">
+<span class="material-symbols-outlined text-[18px]">shopping_cart</span>
+<span>Comprar ahora</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PROMOCIONES FLASH CON COUNTDOWN -->
+<section class="w-full py-space-2xl bg-surface-container-low" id="promociones">
+<div class="max-w-[1360px] mx-auto px-margin">
+<!-- Countdown Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-4">
+<div>
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm uppercase tracking-wider mb-2">
+<span class="material-symbols-outlined text-[15px]">timer</span>
+            Ofertas por Tiempo Limitado
+          </div>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight">
+            Promociones que tu mascota va a amar
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+            Precios especiales directos de fábrica con entrega inmediata en 24 horas.
+          </p>
+</div>
+<!-- Dynamic Countdown Clock -->
+<div class="flex items-center gap-2 bg-surface-container-lowest px-5 py-3 rounded-2xl shadow-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">alarm</span>
+<div class="flex items-center gap-1 font-headline-md text-headline-md font-bold text-primary">
+<span class="w-10 text-center bg-surface-container-low py-1 rounded-lg" id="hours">14</span>
+<span class="text-secondary">:</span>
+<span class="w-10 text-center bg-surface-container-low py-1 rounded-lg" id="minutes">32</span>
+<span class="text-secondary">:</span>
+<span class="w-10 text-center bg-surface-container-low py-1 rounded-lg" id="seconds">18</span>
+</div>
+</div>
+</div>
+<!-- 4 Deals Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Promo Card 1 -->
+<div class="bg-surface-container-lowest rounded-2xl p-5 shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="px-2.5 py-1 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm font-bold">-15% OFF</span>
+<button class="text-outline hover:text-secondary transition-colors"><span class="material-symbols-outlined text-[20px]">favorite</span></button>
+</div>
+<div class="h-44 bg-surface-container-low rounded-xl flex items-center justify-center p-3 mb-4 overflow-hidden">
+<img class="max-h-full object-contain group-hover:scale-105 transition-transform duration-300" data-alt="A clean product bag mockup of Royal Canin Maxi Puppy dog food on white studio background with warm soft shadows and golden tone hints" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8HwOnJXv169sbFv2hgnqbGs45_zQqJkJaSBeiicDoq-DlY-OmtlUpwu__4rZ77PxvrbsMLg3GXAXoetXBBqkKTVKHbw0Cs2GUNLIaJ8ojvFemimuNLspd1iYx5BW0QPNCjpkUjzbRQv9jzyKSNY4ivbUN58gs7hC5Z3NxFvTWf0JhWLFnp-mGjF7XRwBhrCBPPr86XWLBR7A0_20lJhVzK_-4AYtDOTTrtjsM0GhluCrrec-H_6H_cA"/>
+</div>
+<div class="flex items-center gap-1 text-secondary text-label-sm font-label-sm mb-1">
+<span class="material-symbols-outlined text-[16px]">star</span>
+<span class="font-bold">4.9</span>
+<span class="text-outline">(184 reseñas)</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-1">Royal Canin Maxi Puppy</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-3">Desarrollo óseo y soporte del sistema inmune para razas grandes.</p>
+<div class="flex items-center gap-1 mb-4">
+<span class="px-2 py-0.5 rounded bg-surface-container text-primary font-label-sm text-label-sm">15 kg</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-outline font-label-sm text-label-sm">4 kg</span>
+</div>
+</div>
+<div>
+<div class="flex items-baseline gap-2 mb-3">
+<span class="font-headline-md text-headline-md text-primary font-bold">S/ 289.00</span>
+<span class="line-through font-body-sm text-body-sm text-outline">S/ 340.00</span>
+</div>
+<button class="w-full py-2.5 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-semibold flex items-center justify-center gap-2 hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+<span>Añadir al carrito</span>
+</button>
+</div>
+</div>
+<!-- Promo Card 2 -->
+<div class="bg-surface-container-lowest rounded-2xl p-5 shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="px-2.5 py-1 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm font-bold">-16% OFF</span>
+<button class="text-outline hover:text-secondary transition-colors"><span class="material-symbols-outlined text-[20px]">favorite_border</span></button>
+</div>
+<div class="h-44 bg-surface-container-low rounded-xl flex items-center justify-center p-3 mb-4 overflow-hidden">
+<img class="max-h-full object-contain group-hover:scale-105 transition-transform duration-300" data-alt="A premium bag of Hills Science Diet Feline Adult Indoor cat food against warm beige organic studio environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBy37upiveHWB_MRam4mvsfu3ULzZkDh_Vcr9dKwJ2z5bqBxhBipv2BSCQ1mYTbMSWjUIuT5ef4Bs1jep_7xBGaZqyLf2Y2Sog97UvXMdieCz_UTz_nEc-FcAFAs-6BGUZhIGC5O90SJLV_3xVEUMEET3fv8uzJec_esnwmyIlHy_KwCkxMIJoGwtLKQRGqN65PP_OuDcorENrNlqrsdWIGNkqkycqlMMvqKezk3MDaDY5Dh9Bm3hCgYQ"/>
+</div>
+<div class="flex items-center gap-1 text-secondary text-label-sm font-label-sm mb-1">
+<span class="material-symbols-outlined text-[16px]">star</span>
+<span class="font-bold">4.8</span>
+<span class="text-outline">(92 reseñas)</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-1">Hill's Feline Adult Indoor</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-3">Control de bolas de pelo y peso corporal optimizado para interiores.</p>
+<div class="flex items-center gap-1 mb-4">
+<span class="px-2 py-0.5 rounded bg-surface-container text-primary font-label-sm text-label-sm">7 kg</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-outline font-label-sm text-label-sm">3 kg</span>
+</div>
+</div>
+<div>
+<div class="flex items-baseline gap-2 mb-3">
+<span class="font-headline-md text-headline-md text-primary font-bold">S/ 175.00</span>
+<span class="line-through font-body-sm text-body-sm text-outline">S/ 210.00</span>
+</div>
+<button class="w-full py-2.5 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-semibold flex items-center justify-center gap-2 hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+<span>Añadir al carrito</span>
+</button>
+</div>
+</div>
+<!-- Promo Card 3 -->
+<div class="bg-surface-container-lowest rounded-2xl p-5 shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="px-2.5 py-1 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm font-bold">Top Ventas</span>
+<button class="text-outline hover:text-secondary transition-colors"><span class="material-symbols-outlined text-[20px]">favorite_border</span></button>
+</div>
+<div class="h-44 bg-surface-container-low rounded-xl flex items-center justify-center p-3 mb-4 overflow-hidden">
+<img class="max-h-full object-contain group-hover:scale-105 transition-transform duration-300" data-alt="Pro Plan Delicate Cat food bag with salmon graphics, pristine packaging on a modern organic table setup" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAx1T852erpPql9KymO2175MtjU65iv7J0WFC0Mr5QCEwR00Ft8_F6345_4bvkzg7iUdA23C1i0154V49-t_pT-c1bGybMIrvKVWJYUnlmQHgbxHXuPsC_YkGQ3YTr9ji3nFq2P5zMzwmb38PZrX27QGmHlHyA62cGFCczgN_3tnUlIWeb7Jc8YGUaPkcdv9JVXeGdtKCFIT9Yc6MWSDGzGkR0pH9Yec1unBCgIlm9RIg02hPeJmzuPmw"/>
+</div>
+<div class="flex items-center gap-1 text-secondary text-label-sm font-label-sm mb-1">
+<span class="material-symbols-outlined text-[16px]">star</span>
+<span class="font-bold">4.9</span>
+<span class="text-outline">(210 reseñas)</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-1">Pro Plan Delicate Salmón</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-3">Proteína seleccionada de salmón para gatos con digestión sensible.</p>
+<div class="flex items-center gap-1 mb-4">
+<span class="px-2 py-0.5 rounded bg-surface-container text-primary font-label-sm text-label-sm">3 kg</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-outline font-label-sm text-label-sm">7.5 kg</span>
+</div>
+</div>
+<div>
+<div class="flex items-baseline gap-2 mb-3">
+<span class="font-headline-md text-headline-md text-primary font-bold">S/ 115.00</span>
+<span class="line-through font-body-sm text-body-sm text-outline">S/ 132.00</span>
+</div>
+<button class="w-full py-2.5 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-semibold flex items-center justify-center gap-2 hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+<span>Añadir al carrito</span>
+</button>
+</div>
+</div>
+<!-- Promo Card 4 -->
+<div class="bg-surface-container-lowest rounded-2xl p-5 shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="px-2.5 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold">Grain-Free</span>
+<button class="text-outline hover:text-secondary transition-colors"><span class="material-symbols-outlined text-[20px]">favorite_border</span></button>
+</div>
+<div class="h-44 bg-surface-container-low rounded-xl flex items-center justify-center p-3 mb-4 overflow-hidden">
+<img class="max-h-full object-contain group-hover:scale-105 transition-transform duration-300" data-alt="Acana Heritage Free Run Poultry dog food large kibble bag with clean earth tones and studio softbox light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCixKM90yMmsyhywFT6CqDwOIQVQAC5MjSgP8Cc9ZK4sq1s44wrfvr_wPx-ihwVkLmTnCu4GZl43PlXn57KqnQKbCHAspHz0gv-mAXjwQrHfD3fa-tMNoRAxaO0uzlX02i3bOZHKOml4rSFU9dPINORCBT7r4lfW2dCzE_OMKgEKkqPrlx_Q1yoQsnkALPFw0IAQNCQ54jfkBHClNaLh6buCRQsMWoYaNt0fFn8OVQ69pzwxCsEjo1vWg"/>
+</div>
+<div class="flex items-center gap-1 text-secondary text-label-sm font-label-sm mb-1">
+<span class="material-symbols-outlined text-[16px]">star</span>
+<span class="font-bold">5.0</span>
+<span class="text-outline">(64 reseñas)</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary mb-1">Acana Heritage Poultry</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-3">60% de pollo de corral, pavo y huevos enteros criados libres.</p>
+<div class="flex items-center gap-1 mb-4">
+<span class="px-2 py-0.5 rounded bg-surface-container text-primary font-label-sm text-label-sm">11.4 kg</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-low text-outline font-label-sm text-label-sm">2 kg</span>
+</div>
+</div>
+<div>
+<div class="flex items-baseline gap-2 mb-3">
+<span class="font-headline-md text-headline-md text-primary font-bold">S/ 360.00</span>
+<span class="line-through font-body-sm text-body-sm text-outline">S/ 410.00</span>
+</div>
+<button class="w-full py-2.5 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-semibold flex items-center justify-center gap-2 hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+<span>Añadir al carrito</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECCIÓN "COMPRA MÁS, AHORRA MÁS" (PACKS Y COMBOS) -->
+<section class="w-full py-space-2xl bg-surface">
+<div class="max-w-[1360px] mx-auto px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl">
+<div>
+<span class="text-secondary font-label-md text-label-md font-bold uppercase tracking-wider">Kits de Ahorro Integral</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight">Compra más, ahorra más</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Soluciones completas de alimentación, suplementación y cuidado preventivo.</p>
+</div>
+<a class="inline-flex items-center gap-1 font-label-md text-label-md text-primary font-bold hover:underline mt-2 md:mt-0" href="#">
+<span>Ver todos los combos</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter-lg">
+<!-- Pack 1: Canino -->
+<div class="bg-surface-container-lowest rounded-3xl p-8 shadow-sm flex flex-col md:flex-row gap-6 items-center">
+<div class="w-full md:w-1/2 aspect-square bg-surface-container-low rounded-2xl p-4 flex items-center justify-center">
+<img class="max-h-full object-contain" data-alt="A bundle pack of dog food bag with natural treats jars and wild salmon omega 3 oil bottle neatly styled on light ivory surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCDSJMKxIO3CC5xWssQ-lB0tEtROtt_UVD7s3oe_cnfZ_YHkjMyOkxNGiT7xAGB5GYmmWfRmkgvO3lTlTqvFgCNusXqSOTTfsXOmXj7IsJdPGnxzuvmCJpp7TJZE0mTc0FRUgtk31FXP8rIuw1neSPJImQxVLwi25RHqvaPC6LFvjiXNt0whNTd32AHhIW47LEEtQfA9btTQMf9wqsLoTergk-uzhmnebcbRjAbWN-weLFC1SGDUzKWdg"/>
+</div>
+<div class="w-full md:w-1/2 flex flex-col justify-between space-y-4">
+<div>
+<span class="px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold inline-block mb-2">
+                Ahorras S/ 51.00
+              </span>
+<h3 class="font-headline-md text-headline-md text-primary font-bold">Pack Cachorro Feliz</h3>
+<ul class="mt-2 space-y-1 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-tertiary-container">check_circle</span> 1 Alimento Holístico Cachorro 12kg</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-tertiary-container">check_circle</span> 2 Premios de Hígado Liofilizado 100g</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-tertiary-container">check_circle</span> 1 Suplemento Omega 3 de Salmón Puro</li>
+</ul>
+</div>
+<div>
+<div class="flex items-baseline gap-2 mb-3">
+<span class="font-headline-lg text-headline-lg text-primary font-bold">S/ 229.00</span>
+<span class="line-through font-body-sm text-body-sm text-outline">S/ 280.00 regular</span>
+</div>
+<button class="w-full py-3 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-bold hover:bg-primary-container transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">inventory_2</span>
+<span>Comprar Pack con descuento</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Pack 2: Felino -->
+<div class="bg-surface-container-lowest rounded-3xl p-8 shadow-sm flex flex-col md:flex-row gap-6 items-center">
+<div class="w-full md:w-1/2 aspect-square bg-surface-container-low rounded-2xl p-4 flex items-center justify-center">
+<img class="max-h-full object-contain" data-alt="A bundle composition of cat food bag, cans of gourmet wet food, and premium natural clumping cat litter in aesthetic arrangement" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPpLxNr25PqRKfAXvWnISMcy25tnm-Y3V02JgTm1-cxYSDblWB-Xx2oGfLpeGFxUdwKHYsXIo_BxxnwgumBGpu5xcQfogbNjM4Bi-TPYA6Bu8leX4aEIEuDJF6mNyrbnfifUBGerqklt5rPXAWpmI2WgC0Q9zbRypvpIApHVcWvaWzrjMjZ-sBV_T7n12YjR8EslhQFEpOlt43f9SfHL67X-flXFg7sYKbugAMAcgWkdGKms7EdJ3jAw"/>
+</div>
+<div class="w-full md:w-1/2 flex flex-col justify-between space-y-4">
+<div>
+<span class="px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold inline-block mb-2">
+                Ahorras S/ 39.00
+              </span>
+<h3 class="font-headline-md text-headline-md text-primary font-bold">Pack Gato Indoor &amp; Bienestar</h3>
+<ul class="mt-2 space-y-1 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-tertiary-container">check_circle</span> 1 Alimento Control Indoor Felino 7kg</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-tertiary-container">check_circle</span> 6 Latas Húmedas Gourmet Trucha &amp; Pavo</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-[16px] text-tertiary-container">check_circle</span> 1 Arena Aglomerante Biodegradable 6kg</li>
+</ul>
+</div>
+<div>
+<div class="flex items-baseline gap-2 mb-3">
+<span class="font-headline-lg text-headline-lg text-primary font-bold">S/ 159.00</span>
+<span class="line-through font-body-sm text-body-sm text-outline">S/ 198.00 regular</span>
+</div>
+<button class="w-full py-3 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-bold hover:bg-primary-container transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[18px]">inventory_2</span>
+<span>Comprar Pack con descuento</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PROGRAMA DE COMPRA RECURRENTE: AUTO-SHIP -->
+<section class="w-full py-space-2xl bg-surface-container">
+<div class="max-w-[1360px] mx-auto px-margin">
+<div class="bg-primary text-on-primary rounded-3xl p-8 lg:p-14 relative overflow-hidden shadow-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-center relative z-10">
+<div class="lg:col-span-7 space-y-space-md">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm font-bold uppercase tracking-wider">
+<span class="material-symbols-outlined text-[16px]">autorenew</span> VitalPet Auto-Ship
+            </span>
+<h2 class="font-headline-xl text-headline-xl text-on-primary font-bold tracking-tight">
+              Suscríbete y nunca te quedes sin su alimento favorito
+            </h2>
+<p class="font-body-lg text-body-lg text-on-primary-container max-w-xl">
+              Configura la frecuencia exacta con la que Max o Luna comen. Nosotros nos encargamos de que el saco llegue a tu puerta antes de que se termine.
+            </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary-fixed text-[24px]">percent</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-primary">15% de ahorro continuo</h4>
+<p class="font-body-sm text-body-sm text-on-primary-container">Descuento aplicado en todas tus entregas automáticas.</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary-fixed text-[24px]">calendar_today</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-primary">Frecuencia flexible</h4>
+<p class="font-body-sm text-body-sm text-on-primary-container">Elige cada 3, 4 u 8 semanas según tu consumo real.</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary-fixed text-[24px]">redeem</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-primary">Snacks sorpresa de regalo</h4>
+<p class="font-body-sm text-body-sm text-on-primary-container">Una muestra de premio holístico gratis en cada despacho.</p>
+</div>
+</div>
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary-fixed text-[24px]">cancel</span>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-primary">Cancela o pausa con un clic</h4>
+<p class="font-body-sm text-body-sm text-on-primary-container">Sin contratos ni permanencias forzosas. Control total.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Subscription Calculator Box -->
+<div class="lg:col-span-5 bg-surface-container-lowest text-on-surface rounded-2xl p-6 shadow-xl space-y-space-md">
+<h3 class="font-headline-sm text-headline-sm text-primary font-bold">Calcula tu ahorro mensual</h3>
+<div>
+<label class="block font-label-md text-label-md text-on-surface-variant mb-1">Gasto alimenticio mensual regular:</label>
+<div class="flex items-center gap-3">
+<input class="w-full accent-secondary" id="subSlider" max="600" min="120" step="10" type="range" value="250"/>
+<span class="font-headline-sm text-headline-sm text-primary font-bold w-24 text-right" id="sliderVal">S/ 250</span>
+</div>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-low flex items-center justify-between">
+<div>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Con Auto-Ship pagas:</p>
+<p class="font-headline-md text-headline-md text-primary font-bold" id="subDiscountPrice">S/ 212.50</p>
+</div>
+<div class="text-right">
+<p class="font-label-sm text-label-sm text-secondary font-bold">Ahorro al año:</p>
+<p class="font-headline-sm text-headline-sm text-secondary font-bold" id="subYearSavings">S/ 450.00</p>
+</div>
+</div>
+<button class="w-full py-3.5 rounded-xl bg-secondary text-on-secondary font-label-lg text-label-lg font-bold hover:bg-secondary-container hover:text-on-secondary-container transition-all flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-[20px]">bolt</span>
+<span>Activar mi plan con 15% OFF</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PUNTOS DE VENTA Y RETIRO EXPRESS -->
+<section class="w-full py-space-2xl bg-surface">
+<div class="max-w-[1360px] mx-auto px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl">
+<div>
+<span class="text-secondary font-label-md text-label-md font-bold uppercase tracking-wider">Disponibilidad Inmediata</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight">Puntos de venta &amp; Retiro express</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Recoge tu pedido sin costo en menos de 2 horas en nuestras sedes aliadas.</p>
+</div>
+<div class="flex items-center gap-2 mt-4 md:mt-0">
+<span class="w-3 h-3 rounded-full bg-tertiary-container animate-pulse"></span>
+<span class="font-label-md text-label-md text-primary font-bold">4 sedes con stock garantizado en Lima</span>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter-lg items-stretch">
+<!-- Interactive Store List -->
+<div class="lg:col-span-5 space-y-3">
+<!-- Miraflores -->
+<div class="p-4 rounded-2xl bg-surface-container-low hover:bg-surface-container-high transition-colors cursor-pointer border-l-4 border-primary">
+<div class="flex items-center justify-between mb-1">
+<h4 class="font-headline-sm text-headline-sm text-primary font-bold">Miraflores • Hub Central</h4>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-bold">A 1.2 km</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Av. Mariscal La Mar 1140 (Frente al Parque)</p>
+<div class="flex items-center gap-4 mt-3 font-label-sm text-label-sm text-outline">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">schedule</span> Lun - Sáb: 8am - 8pm</span>
+<span class="text-tertiary-container font-bold flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">check</span> Retiro 2h</span>
+</div>
+</div>
+<!-- San Isidro -->
+<div class="p-4 rounded-2xl bg-surface-container-lowest hover:bg-surface-container-low transition-colors cursor-pointer shadow-sm">
+<div class="flex items-center justify-between mb-1">
+<h4 class="font-headline-sm text-headline-sm text-primary font-bold">San Isidro • Golf Vet</h4>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant">A 3.4 km</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Calle Los Libertadores 450</p>
+<div class="flex items-center gap-4 mt-3 font-label-sm text-label-sm text-outline">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">schedule</span> Lun - Dom: 9am - 7pm</span>
+<span class="text-tertiary-container font-bold flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">check</span> Retiro 2h</span>
+</div>
+</div>
+<!-- Santiago de Surco -->
+<div class="p-4 rounded-2xl bg-surface-container-lowest hover:bg-surface-container-low transition-colors cursor-pointer shadow-sm">
+<div class="flex items-center justify-between mb-1">
+<h4 class="font-headline-sm text-headline-sm text-primary font-bold">Surco • Chacarilla</h4>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant">A 5.8 km</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Av. Primavera 620 Int. 102</p>
+<div class="flex items-center gap-4 mt-3 font-label-sm text-label-sm text-outline">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">schedule</span> Lun - Sáb: 9am - 8pm</span>
+<span class="text-tertiary-container font-bold flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">check</span> Retiro 2h</span>
+</div>
+</div>
+<!-- La Molina -->
+<div class="p-4 rounded-2xl bg-surface-container-lowest hover:bg-surface-container-low transition-colors cursor-pointer shadow-sm">
+<div class="flex items-center justify-between mb-1">
+<h4 class="font-headline-sm text-headline-sm text-primary font-bold">La Molina • Rinconada</h4>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-surface-container text-on-surface-variant">A 8.1 km</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Av. Raúl Ferrero 1240</p>
+<div class="flex items-center gap-4 mt-3 font-label-sm text-label-sm text-outline">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">schedule</span> Lun - Sáb: 8:30am - 7:30pm</span>
+<span class="text-tertiary-container font-bold flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">check</span> Retiro 2h</span>
+</div>
+</div>
+</div>
+<!-- Stylized Map Container -->
+<div class="lg:col-span-7 bg-surface-container-low rounded-3xl min-h-[360px] overflow-hidden shadow-sm relative">
+<div class="w-full h-full min-h-[380px] bg-cover bg-center rounded-3xl" data-location="Miraflores, Lima, Peru" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDuacCTjFBfthmzX-u1xQef5wm6zsfpX_wbg_iAmV7Cq-uE_BQGtv0oT1I0zlu06v1COQUQg5ia6FRFuWeiYwKtDQ7gvj0LOrqfiFPGrOSe-y9HqFm3C0xnpQubuHVVgcQ-Hxsl2L3FV0yEDASJCCoVsyDMzBi05vRTdd4vr4xYF1TpE5VIV575aJoxTMdcZrJXZUs3J2RsvzNWNCYYL6vnS-qlZjdNQDI8_saQluloRSHp_dgkErpVSw')"></div>
+<div class="absolute top-4 left-4 bg-surface-container-lowest/90 backdrop-blur-md px-4 py-2 rounded-xl shadow-md flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">my_location</span>
+<span class="font-label-md text-label-md text-primary font-semibold">Ubicación detectada: Miraflores</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- TESTIMONIOS Y COMUNIDAD NUTRIPAWS -->
+<section class="w-full py-space-2xl bg-surface-container-low">
+<div class="max-w-[1360px] mx-auto px-margin">
+<div class="text-center max-w-xl mx-auto mb-space-xl">
+<span class="text-secondary font-label-md text-label-md font-bold uppercase tracking-wider">Familias NutriPaws</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight">Voces reales, vidas transformadas</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Conoce las historias de dueños que vieron una mejora radical en pelaje, energía y digestión.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Review 1 -->
+<div class="bg-surface-container-lowest rounded-3xl p-6 shadow-sm flex flex-col justify-between">
+<div class="space-y-3">
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+              "Luna sufría de alergias cutáneas constantes. Cambiamos al alimento de Salmón y Camote siguiendo el recomendador y en 3 semanas el rascado paró. Su pelaje ahora brilla de verdad."
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-6 mt-6 border-t border-surface-container">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-surface-container-high flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Portrait of a smiling young woman holding her happy Golden Retriever dog outdoors in a sunny park" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYVZoXvMMA1v2-fIv12X6N8yzk3u1yN2d_vCQGYsFrBkdXfytM3YaXZ0o2Ai88u4ze3IpmwagH-kQAPD_KHmagY0vloveyLSxxA67Ocj-PqFTGaAUqQVMZIuuQ3VQFZftM0tbE_7g48UDX1lIam9sNROlmJJdplvaFDmLLcyc3Wkc2LEQJANv0G6gz8SumlxcfABx1EAE4rbRT32tiL3sDLJJ4M0nUUuQD1KDAg80k0d82uSSscAdoKA"/>
+</div>
+<div>
+<p class="font-label-md text-label-md text-primary font-bold">Camila V. &amp; Luna</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Golden Retriever • 3 años</p>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="bg-surface-container-lowest rounded-3xl p-6 shadow-sm flex flex-col justify-between">
+<div class="space-y-3">
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+              "El servicio de Auto-Ship es impecable. Llega puntual cada mes sin que tenga que acordarme de ir al supermercado y las muestras de premios que mandan vuelven loco a Milo."
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-6 mt-6 border-t border-surface-container">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-surface-container-high flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Close up warm photography of a man with his fluffy British shorthair cat indoors in modern apartment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbQYBxfX-vj626xtZh6XgDOjYqnJ8vb8OIych3x5IkM-iJjSJs3cWx_IuB3J44GRiucVtur_Db8sy0i6cX6o_YU1b10LDb1p9kFoMZZhQ8KodPMbnWWv6q-5czjj4tBgeHJs0zIejqXdbnmI7kdbAMqxYQz_HOvjFWEyHt9iqMXlWg2LTkvMf10NMT40UXprLv_oWd5zWHfa_hwmog2qfcQ4eyAdLQ8olSgH80Ecq-2ww0GTwYyZAcbA"/>
+</div>
+<div>
+<p class="font-label-md text-label-md text-primary font-bold">Rodrigo M. &amp; Milo</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Gato Indoor • 2 años</p>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="bg-surface-container-lowest rounded-3xl p-6 shadow-sm flex flex-col justify-between">
+<div class="space-y-3">
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic">
+              "Mi bulldog tenía problemas serios de gases y digestión pesada. La asesoría del equipo veterinario por WhatsApp nos guió hacia la fórmula grain-free exacta. Un cambio de 180 grados."
+            </p>
+</div>
+<div class="flex items-center gap-3 pt-6 mt-6 border-t border-surface-container">
+<div class="w-12 h-12 rounded-full overflow-hidden bg-surface-container-high flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Portrait of an owner cuddling a French bulldog on cozy living room sofa" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXmncG9wC2Rl-WXu6g31AEazM9iRoSyLN_DbsyA7qIFkDXEUWV9EowoMBUGOv35WdsZ2MzwFTb9SHBeUJ02Cm40HZmeXh54jxh4mEwNY97BthEOXfs0iJAmRaQXtY3TnbONb5klqXOAVa2O0WZ9vObW9TeQfu3ARgVsQDc94xzK-dfLy4KjscnOXUGp7sEkoq5qyuGFx11AdeNPXYOL1WMW2tr1YNsih3lNezLL-NisQ4iq9eY7CfJxQ"/>
+</div>
+<div>
+<p class="font-label-md text-label-md text-primary font-bold">Valeria S. &amp; Rocco</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">Bulldog Francés • 4 años</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PROPUESTA DE VALOR: 4 PILARES NUTRIPAWS -->
+<section class="w-full py-space-2xl bg-surface">
+<div class="max-w-[1360px] mx-auto px-margin">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<div class="p-6 rounded-2xl bg-surface-container-low flex flex-col items-start space-y-3">
+<div class="w-12 h-12 rounded-xl bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[24px]">rocket_launch</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-bold">Envíos Express Hoy</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pedidos antes de las 2:00 PM entregados en tu puerta el mismo día en Lima metropolitana.</p>
+</div>
+<div class="p-6 rounded-2xl bg-surface-container-low flex flex-col items-start space-y-3">
+<div class="w-12 h-12 rounded-xl bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[24px]">verified</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-bold">100% Marcas Originales</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Garantía de trazabilidad directa con laboratorios y representantes oficiales autorizados.</p>
+</div>
+<div class="p-6 rounded-2xl bg-surface-container-low flex flex-col items-start space-y-3">
+<div class="w-12 h-12 rounded-xl bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[24px]">support_agent</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-bold">Asesoría Veterinaria</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Orientación profesional sin costo para resolver dudas sobre ingredientes, alergias y porciones.</p>
+</div>
+<div class="p-6 rounded-2xl bg-surface-container-low flex flex-col items-start space-y-3">
+<div class="w-12 h-12 rounded-xl bg-primary flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[24px]">loyalty</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-bold">Club Huellitas VitalPet</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Acumula puntos en cada compra canjeables por descuentos, juguetes y servicios de grooming.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Logic for Stepper & Calculator -->
+<script>
+    // Species toggle
+    const speciesBtns = document.querySelectorAll('.species-btn');
+    speciesBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        speciesBtns.forEach(b => {
+          b.className = 'species-btn flex items-center justify-center gap-3 p-4 rounded-2xl bg-surface-container-low text-on-surface hover:bg-surface-container transition-all duration-200';
+        });
+        btn.className = 'species-btn flex items-center justify-center gap-3 p-4 rounded-2xl bg-primary text-on-primary shadow-sm transition-all duration-200';
+      });
+    });
+
+    // Size toggle
+    const sizeBtns = document.querySelectorAll('.size-btn');
+    sizeBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        sizeBtns.forEach(b => {
+          b.className = 'size-btn p-2.5 rounded-xl bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm text-center hover:bg-surface-container transition-all';
+        });
+        btn.className = 'size-btn p-2.5 rounded-xl bg-primary text-on-primary font-label-sm text-label-sm text-center shadow-sm';
+      });
+    });
+
+    // Activity toggle
+    const activityBtns = document.querySelectorAll('.activity-btn');
+    activityBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        activityBtns.forEach(b => {
+          b.className = 'activity-btn p-3 rounded-xl bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm text-center hover:bg-surface-container';
+        });
+        btn.className = 'activity-btn p-3 rounded-xl bg-primary text-on-primary font-label-sm text-label-sm text-center shadow-sm';
+      });
+    });
+
+    // Special needs chips toggle
+    const chips = document.querySelectorAll('.need-chip');
+    chips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        const isSelected = chip.classList.contains('bg-secondary-fixed');
+        if (isSelected) {
+          chip.classList.remove('bg-secondary-fixed', 'text-on-secondary-fixed', 'shadow-sm');
+          chip.classList.add('bg-surface-container-low', 'text-on-surface-variant');
+          chip.textContent = chip.textContent.replace('✓', '+');
+        } else {
+          chip.classList.remove('bg-surface-container-low', 'text-on-surface-variant');
+          chip.classList.add('bg-secondary-fixed', 'text-on-secondary-fixed', 'shadow-sm');
+          chip.textContent = chip.textContent.replace('+', '✓');
+        }
+      });
+    });
+
+    // Auto-Ship Savings Calculator
+    const slider = document.getElementById('subSlider');
+    const sliderVal = document.getElementById('sliderVal');
+    const discountPrice = document.getElementById('subDiscountPrice');
+    const yearSavings = document.getElementById('subYearSavings');
+
+    if(slider) {
+      slider.addEventListener('input', (e) => {
+        const val = parseFloat(e.target.value);
+        sliderVal.textContent = `S/ ${val.toFixed(0)}`;
+        const discounted = val * 0.85;
+        const savedYear = (val * 0.15) * 12;
+        discountPrice.textContent = `S/ ${discounted.toFixed(2)}`;
+        yearSavings.textContent = `S/ ${savedYear.toFixed(2)}`;
+      });
+    }
+
+    // Countdown Clock Micro-Interaction
+    let sec = 18;
+    let min = 32;
+    let hrs = 14;
+    setInterval(() => {
+      sec--;
+      if (sec < 0) {
+        sec = 59;
+        min--;
+        if (min < 0) {
+          min = 59;
+          hrs--;
+        }
+      }
+      const sElem = document.getElementById('seconds');
+      const mElem = document.getElementById('minutes');
+      const hElem = document.getElementById('hours');
+      if (sElem) sElem.textContent = sec < 10 ? '0' + sec : sec;
+      if (mElem) mElem.textContent = min < 10 ? '0' + min : min;
+      if (hElem) hElem.textContent = hrs < 10 ? '0' + hrs : hrs;
+    }, 1000);
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest mt-space-2xl shadow-[0_-1px_12px_rgba(0,0,0,0.03)]"><div class="bg-surface-container-low py-space-xl"><div class="max-w-[1360px] mx-auto px-margin flex flex-col lg:flex-row items-center justify-between gap-space-lg"><div class="max-w-xl text-center lg:text-left"><h3 class="font-headline-md text-headline-md text-primary mb-2">Únete a la Comunidad NutriPaws</h3><p class="font-body-md text-body-md text-on-surface-variant">Recibe planes alimenticios guiados por veterinarios, ofertas exclusivas y consejos preventivos para la vitalidad de tus compañeros.</p></div><form class="flex w-full lg:w-auto max-w-md items-center gap-2"><input class="flex-1 px-4 py-3 bg-surface-container-lowest rounded-xl font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary" placeholder="Ingresa tu correo electrónico..." type="email"/><button class="px-6 py-3 bg-secondary text-on-secondary rounded-xl font-label-lg text-label-lg font-bold hover:bg-secondary-container hover:text-on-secondary-container transition-all flex items-center gap-2" type="submit"><span>Suscribirme</span><span class="material-symbols-outlined text-[18px]">arrow_forward</span></button></form></div></div><div class="max-w-[1360px] mx-auto px-margin py-space-2xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-gutter-lg mb-space-2xl"><div class="lg:col-span-2 pr-0 lg:pr-space-xl"><div class="flex items-center gap-space-md mb-space-md"><img alt="NutriPaws Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Xk959oP79kZ_YP3i4yJKxCuXMffQqsdhwupHZYeDCQy6lko7XPY4owpyXJp8QZOKxeUv40EMdC3rRx21bFJRqrBdHRtvc_h-r3PU-_wqGP9XxrDLF5Lx00q-SLHYSxr9WLL0FpRzIvmeomLYSe12cE_6lSFZFjyoBsCqy_NJEhsgLKVEEs0Ouq7HFLjW7pOEZLiR9U13Wa6Mn4dwp3SNshL20HBe7wAwMeOuEN_6N2Fo1A9m22IZELEjxN"/><span class="font-headline-md text-headline-md text-primary">NutriPaws VitalPet</span></div><p class="font-body-md text-body-md text-on-surface-variant mb-space-lg leading-relaxed">Pioneros en nutrición biológicamente balanceada y preventiva en el Perú. Fórmulas holísticas libres de granos artificiales, avaladas por la Sociedad Latinoamericana de Nutrición Veterinaria.</p><div class="flex items-center gap-space-md"><div class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container font-label-sm text-label-sm text-primary"><span class="material-symbols-outlined text-[16px]">health_and_safety</span> Grado Veterinario</div><div class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container font-label-sm text-label-sm text-primary"><span class="material-symbols-outlined text-[16px]">eco</span> Clean-Label 100%</div></div></div><div><h4 class="font-headline-sm text-headline-sm text-primary mb-space-md">Nutrición &amp; Productos</h4><ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="perros" href="#">Alimento Holístico Perros</a></li><li><a class="hover:text-primary transition-colors" data-path="gatos" href="#">Dietas Clínicas Felinas</a></li><li><a class="hover:text-primary transition-colors" data-path="productos" href="#">Snacks &amp; Liofilizados</a></li><li><a class="hover:text-primary transition-colors" data-path="promociones" href="#">Packs Ahorro &amp; Promos</a></li><li><a class="hover:text-primary transition-colors" data-path="productos" href="#">Suplementos &amp; Probióticos</a></li></ul></div><div><h4 class="font-headline-sm text-headline-sm text-primary mb-space-md">Herramientas de Salud</h4><ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="encuentra-tu-alimento" href="#">Recomendador Nutricional AI</a></li><li><a class="hover:text-primary transition-colors" data-path="consejos" href="#">Calculadora de Ración Diaria</a></li><li><a class="hover:text-primary transition-colors" data-path="productos" href="#">Comparador de Ingredientes</a></li><li><a class="hover:text-primary transition-colors" data-path="consejos" href="#">Guías Clínicas Veterinarias</a></li><li><a class="hover:text-primary transition-colors" data-path="puntos-de-venta" href="#">Geolocalizador de Clínicas</a></li></ul></div><div><h4 class="font-headline-sm text-headline-sm text-primary mb-space-md">Club &amp; Atención</h4><ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant"><li><a class="hover:text-primary transition-colors" data-path="mi-cuenta" href="#">Club Huellitas &amp; Puntos</a></li><li><a class="hover:text-primary transition-colors" data-path="mi-cuenta" href="#">Suscripción VitalPet Auto-Ship</a></li><li><a class="hover:text-primary transition-colors" data-path="puntos-de-venta" href="#">Locales &amp; Puntos Pickup</a></li><li><a class="hover:text-primary transition-colors" data-path="consejos" href="#">Centro de Ayuda &amp; FAQ</a></li><li><a class="hover:text-primary transition-colors" data-path="inicio" href="#">Libro de Reclamaciones</a></li></ul></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md bg-surface-container-low px-space-lg py-space-md rounded-2xl"><div class="flex flex-wrap items-center gap-space-md"><span class="font-label-sm text-label-sm text-on-surface-variant">Métodos de pago seguros:</span><div class="flex items-center gap-2"><span class="px-2.5 py-1 bg-surface-container-lowest rounded font-label-sm text-label-sm font-bold text-on-surface">VISA</span><span class="px-2.5 py-1 bg-surface-container-lowest rounded font-label-sm text-label-sm font-bold text-on-surface">Mastercard</span><span class="px-2.5 py-1 bg-surface-container-lowest rounded font-label-sm text-label-sm font-bold text-primary">Yape</span><span class="px-2.5 py-1 bg-surface-container-lowest rounded font-label-sm text-label-sm font-bold text-secondary">Plin</span><span class="px-2.5 py-1 bg-surface-container-lowest rounded font-label-sm text-label-sm font-bold text-on-surface-variant">PagoEfectivo</span></div></div><div class="flex items-center gap-space-md"><a class="flex items-center gap-1 font-label-sm text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[16px]">menu_book</span> Libro de Reclamaciones Virtual</a></div></div><div class="mt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant font-body-sm text-body-sm"><p>© 2024 NutriPaws VitalPet S.A.C. Todos los derechos reservados. RUC 20608941231.</p><div class="flex items-center gap-space-md font-label-sm text-label-sm"><a class="hover:text-primary transition-colors" href="#">Términos y Condiciones</a><span class="opacity-40">•</span><a class="hover:text-primary transition-colors" href="#">Política de Privacidad</a><span class="opacity-40">•</span><a class="hover:text-primary transition-colors" href="#">Políticas de Despacho 24h</a></div></div></div></footer></body></html>
